@@ -2,4 +2,4 @@ figlet -f #fontname $( fortune )
   http://www.figlet.org/figlet-man.html
 fortune | cowsay -font #fontname 
   to get font list cowsay -l
-  
+  fortune | cowsay -f tux | toilet --gay -f term
