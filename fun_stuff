@@ -3,3 +3,5 @@ figlet -f #fontname $( fortune )
 fortune | cowsay -font #fontname 
   to get font list cowsay -l
   fortune | cowsay -f tux | toilet --gay -f term
+  
+  neofetch --ascii "$(fortune | cowsay -f tux -W 30)" | lolcat -ats 60
